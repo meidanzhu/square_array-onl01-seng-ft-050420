@@ -1,11 +1,12 @@
 def square_array(array)
-   new_array = []
+   newArray = []
    array.each do |number|
-   new_array << (number ** 2)
+   number = (number ** 2)
+   newArray << number
    end
-   new_numbers
+   newArray
 end
 
 def new_square_array(array)
-  array.collect{|number| number ** 2}
+  newArray.collect{|number| number * 2}
 end
